@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img {
+    width: 100px;
+    padding: 5px 20px;
+}
+.logo {
+    background-color: #222F3E;
+    display: flex;
+}
+footer img {
+    width: 200px;
+}
+footer .logo {
+    justify-content: center;
+}
+footer .catbar {
+    display: flex;
+    justify-content: center;
+}
+.catbar {
+    background-color: #354758;
+    padding: 5px;
+}
+.catbar span {
+    color: white;
+    padding: 5px;      
+}
+.catbar a {
+    color: white;
+}
