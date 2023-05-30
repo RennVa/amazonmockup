@@ -74,6 +74,30 @@ main {
     aspect-ratio: 3/4;
     border-radius: 20px;
 }
+.flex-containers {
+    width: 25%;
+    margin: 20px 5px;
+    background-color: white;
+}
+.flex-mini-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.mini-img {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.mini-img span {
+    padding: 10px;
+}
+.inline {
+    display: flex;
+    margin: 20px 0;
+    background-color: #EAEDED;
+    
+}
 .large-img {
     display: flex;
     justify-content: center;
@@ -86,4 +110,8 @@ main {
 .large-img .title-text {
     display: flex;
     justify-content: center;
+}
+.mini-img img {
+    object-fit: cover;
+    margin: 20px;
 }
