@@ -129,14 +129,49 @@ main {
     content: "";
     position: absolute;
     top: 0;
-    bottom: 5px;
+    bottom: 0;
     right: 0;
     left: 0;
     background-color: black;
     z-index: 2;
     opacity: 0;
     border-radius: 20px;
+    transform: translateY(-100%);
 }
 .image:hover::before {
     opacity: 0.4;
+    transform: translateY(0%);
+    transition: opacity 0.4s, transform 0.4s ;
 }
+.image .fa-heart {
+    position: absolute;
+    right: 20px;    
+    top: 25px;
+    color: white;
+    z-index: 2;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.image:hover .fa-heart{
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0.4s, transform 0.4s ;
+}
+.blue-cart {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: #306f83;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+.image:hover .blue-cart {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0.4s, transform 0.4s ;
+}
+
